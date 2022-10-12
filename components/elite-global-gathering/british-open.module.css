@@ -1,0 +1,73 @@
+.rightCol {
+    background-image: url('/assets/images/britishopen-rightBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.british_open {
+    background-image: url('/assets/images/britishopen-leftBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.british_open h2 {
+    width: 347px;
+    height: 32px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 14.25rem 7.188rem 0 8.625rem;
+}
+
+.british_open p {
+    width: 250px;
+    height: 49px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 1.688rem 8.625rem 16.5rem 9.563rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .british_open_Main {
+        flex-direction: column-reverse;
+    }
+
+    .rightCol {
+        display: flex;
+        height: 52.27882037533512vh;
+        flex: auto;
+    }
+
+    .british_open {
+        height: 52.27882037533512vh;
+    }
+
+    .british_open h2 {
+        width: 240px;
+        height: 21px;
+        margin: 9.563rem 5.125rem 0;
+    }
+
+    .british_open p {
+        text-align: left;
+        width: 223px;
+        height: 80px;
+        margin: 2.938rem 5.125rem 7.438rem;
+    }
+}

@@ -1,0 +1,74 @@
+/* .banner {
+    background: url('/assets/images/bannerBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100vw !important;
+    height: 100vh;
+} */
+
+.bannerTitle svg {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left: 80px;
+    top: 108px;
+    cursor: pointer;
+  }
+
+.bannerLogo {
+    top: 23rem;
+    position: absolute;
+    margin-left: 55.5rem;
+}
+
+.bannerTitle h2 {
+    position: absolute;
+    font-size: 1.4rem;
+    width: 377px;
+    height: 44px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.445em;
+    text-transform: uppercase;
+    color: #FFFCFB;
+    top: 374px;
+    margin: 8.5rem 12rem 0;
+    left: 582px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .bannerTitle h2 {
+        margin: 4.5rem 0 0 0;
+
+    }
+    .bannerLogo {
+        top: 19rem;
+        position: absolute;
+        margin-left: 44rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bannerTitle svg {
+        position: absolute;
+        left: 20px;
+        top: 80px;
+      }
+      .bannerLogo{
+        top: 6rem;
+        position: absolute;
+        margin-left: 9rem;
+        width: 4rem;
+      }
+      .bannerTitle h2{
+        width: 332px;
+        height: 44px;
+        left: 2rem;
+        top: 7rem;
+        font-size: 1rem;
+      }
+}

@@ -1,0 +1,64 @@
+.leftCol {
+    background-image: url('/assets/images/the-kinclaith-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.the_kinclaith_text h2 {
+    width: 22.688rem;
+    height: 194px;
+    left: 684px;
+    top: 4406px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%; 
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 8.125rem 8.25rem 0;
+}
+
+.the_kinclaith_text p {
+    height: 212px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.4%;
+    color: #D1C7BB;
+    width: 20.8rem;
+    margin: 2.5rem 8.23rem 9.188rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .leftCol {
+        height: 52.27882037533512vh;
+    }
+    .the_kinclaith_BG{
+        background-image: url('/assets/images/highland-leftBG.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 75.42627345844504vh;
+    }
+  
+    .the_kinclaith_text h2{
+        width: 236px;
+        height: 107px;
+        font-size: 37px;
+        margin: 2.188rem 2.3rem 0;
+    }
+    .the_kinclaith_text p{
+        width: 287px;
+        height: 273px;
+        margin: 0;
+        font-size: 14px;
+        margin: 2.188rem 2.3rem 0;
+
+    }
+
+}

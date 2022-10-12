@@ -1,0 +1,73 @@
+.rightCol {
+    background-image: url('/assets/images/black-bull-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* .highlandText {
+    margin: 10.938rem 0.375rem 11.625rem 0;
+} */
+
+.the_black_bull_BG h2 {
+    width: 32.813rem;
+    height: 262px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 0rem 7.25rem 0;
+}
+
+.the_black_bull_BG p {
+    width: 20rem;
+    height: 70px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.4%;
+    color: #D1C7BB;
+    margin: 0rem 7.23rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .rightCol {
+        height: 52.27882037533512vh;
+    }
+    /* .rarest_society_Main{
+        flex-direction: column-reverse;
+        display: flex;
+    } */
+
+    .the_black_bull_Text {
+      position: relative;
+        width: 318px;
+        height: 412px;
+        left: 40px;
+        margin: 4.188rem 0 0;
+    }
+
+    .the_black_bull_BG h2 {
+        position: absolute;
+        width: 293px;
+        height: 183px;
+        font-size: 46px;
+        margin: 0;
+    }
+
+    .the_black_bull_BG p {
+        position: absolute;
+        width: 318px;
+        height: 115px;
+        margin: 0;
+        font-size: 19px;
+        top: 67px;
+        margin: 9rem 0 0;
+    }
+}

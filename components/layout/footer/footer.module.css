@@ -1,0 +1,106 @@
+.get_started_BG {
+    background-image: url('/assets/images/home-register.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.get_started_text h2 {
+    width: 21.688rem;
+    height: 2rem;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.188rem;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin-bottom: 1.563rem;
+}
+
+.get_started_text p {
+    width: 21.375rem;
+    height: 4.563rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    /* font-size: 14px; */
+    line-height: 1.438rem;
+    text-align: center;
+    color: #D1C7BB;
+    margin-bottom: 1.563rem;
+
+}
+
+.subscribeButton {
+    width: 22.375rem;
+    height: 2.375rem;
+    border: 1px solid #FFFEFE;
+    border-radius: 2.25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribeButton button {
+    height: 1.25rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.063rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.12em;
+    color: #F3AA93;
+   
+}
+
+/* 
+@media only screen and (max-width: 768px) {
+    .get_started_BG {
+        height: 70.94101876675603vh;
+    }
+
+    .get_started_text h2 {
+        position: relative;
+        width: 347px;
+        height: 32px;
+        left: 12px;
+        margin: 0 0;
+        font-size: 35px;
+    }
+
+    .get_started_text p {
+        position: absolute;
+        width: 342px;
+        height: 73px;
+        left: 23px;
+        font-size: 14px;
+    }
+
+    .subscribeButton {
+        position: absolute;
+        width: 254px;
+        height: 38px;
+        left: 67px;
+        margin-top: 20rem;
+    }
+} */
+
+/* @media only screen and (max-width: 1600px) {
+    .get_started_title {
+        width: 18.7rem;
+    }
+
+    .get_started_text p {
+        width: 19rem;
+    }
+
+    .subscribeButton {
+        margin-left: 1rem;
+    }
+} */

@@ -1,0 +1,33 @@
+.the_trilogy_BG {
+    background-image: url('/assets/images/the-trilogy-BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.the_trilogy_title {
+    width: 28rem;
+    height: 68px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .the_trilogy_title {
+        position: absolute;
+        width: 297px;
+        height: 30px;
+        left: 46px;
+        font-size: 37px;
+    }
+
+    .the_trilogy_BG {
+        height: 61.52815013404826vh;
+    }
+}

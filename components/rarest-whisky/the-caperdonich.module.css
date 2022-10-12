@@ -1,0 +1,70 @@
+.rightCol {
+    background-image: url('/assets/images/the-caperdonich-right-BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.caperdonich {
+    background-image: url('/assets/images/the-caperdonich-left-BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.caperdonich h2 {
+    width: 24.688rem;
+    height: 262px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 11.125rem 8.25rem 0;
+}
+
+.caperdonich p {
+    width: 370px;
+    height: 70px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.4%;
+    color: #D1C7BB;
+    width: 20.5rem;
+    margin: 2.5rem 8.23rem 9.188rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .caperdonich {
+        background: none;
+        height: 62vh;
+    }
+
+    .rarest_society_Main {
+        flex-direction: column-reverse;
+    }
+
+    .caperdonich h2 {
+        width: 300px;
+        height: 183px;
+        font-size: 46px;
+        margin: 4.188rem 2.313rem 0;
+       
+    }
+
+    .caperdonich p {
+        width: 280px;
+        height: 101px;
+        font-size: 14px;
+        text-transform: capitalize;
+        margin: 1.813rem 2.313rem 0;
+    }
+}

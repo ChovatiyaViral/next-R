@@ -1,0 +1,92 @@
+.highlandBg {
+    background-image: url('/assets/images/highland-leftBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.righttCol {
+    background-image: url('/assets/images/highland-rightBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.highlandText {
+    margin: 10.938rem 5.375rem 11.625rem 0;
+}
+
+.highlandBg h2 {
+    font-family: 'Rossanova Personal Use';
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    text-align: left;
+    margin: 0rem 8.25rem 0;
+    width: 22.688rem;
+}
+
+.highlandBg p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.4%;
+    color: #D1C7BB;
+    width: 20.6rem;
+    margin: 4rem 8.23rem 0;
+}
+
+/* Section h2 {
+    display: block;
+    transform: translateX(-100px);
+    opacity: 0;
+} */
+
+@media only screen and (max-width: 768px) {
+    .righttCol {
+        height: 52.27882037533512vh;
+        display: flex;
+        flex: auto;
+    }
+    .highlandBg{
+        height: 65vh;
+        background: #000000;
+    }
+
+    .highlandText {
+        position:absolute;
+        left: 0;
+        width: auto;
+        height: 116px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 80%);
+        margin: -6rem 0 0;
+    }
+    .highland_main{
+        margin: 21rem 0 0;
+        flex-direction: column-reverse;
+    }
+
+    .highlandBg h2 {
+        width: 174px;
+        height: 180px;
+        left: 37px;
+        font-size: 46px;
+        margin-left: 2.313rem;
+    }
+
+    .highlandBg p {
+        /* position: absolute; */
+        width: 295px;
+        height: 185px;
+        left: 40px;
+        font-size: 14px;
+        margin: 1.875rem 2.5rem 0; 
+    }
+
+}

@@ -1,0 +1,115 @@
+.registration_Main_section {
+  background-image: url("/assets/images/registration_BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow {
+  margin-top: 1.125rem;
+  display: inline-block;
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-bottom: 1.25rem;
+  margin-top: 1.875rem;
+  margin-left: 5.5rem;
+  cursor: pointer;
+}
+
+.main_title {
+  font-family: 'Rossanova Personal Use';
+}
+
+.frist_prah {
+  font-family: 'Raleway';
+}
+
+@media only screen and (max-width: 768px) {
+  .registration_Main_section {
+    background-image: url("/assets/images/registration_mobile_BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .registration_from_section {
+    columns: auto;
+  }
+
+  .arrow {
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .main_title h2 {
+    width: 20.375rem;
+    height: 4.313rem;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 4.313rem;
+  }
+
+  .frist_prah p {
+    width: 17.375rem;
+    height: 2.25rem;
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.938rem;
+    letter-spacing: 0.06em;
+    color: #FEFAF2;
+  }
+
+  .form_Main_section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .registration_right_section {
+    display: none;
+  }
+
+  .registration_from_section form {
+    margin-top: 0rem !important;
+  }
+
+  .registration_bottom_section {
+    display: none;
+  }
+
+  .registration_section {
+    display: block;
+  }
+
+  .registration_from_section input {
+    width: 306.52px;
+    height: 34px;
+    left: 32px;
+    top: 633.09px;
+    background: rgba(255, 255, 255, 0.81);
+    opacity: 0.52;
+    border: 2.5px solid #FFFFFF;
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 5px;
+  }
+
+  .registration_from_section select {
+    width: 19.125rem;
+    height: 2.5;
+    background: rgba(255, 255, 255, 0.81);
+    opacity: 0.52;
+    border: 0.156 solid #FFFFFF;
+    backdrop-filter: blur(1.563);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 0.313;
+  }
+}

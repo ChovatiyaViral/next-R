@@ -1,0 +1,294 @@
+.events {
+    margin: 6.563rem 5.688rem;
+}
+
+.grandDel_BG {
+    background-image: url('/assets/images/grand-delBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 630px;
+    height: 350px;
+    border: 0.3px solid #D1C7BB;
+}
+
+.malivu_BG {
+    background-image: url('/assets/images/MalivuBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 630px;
+    height: 350px;
+    background-position: center;
+    border: 0.3px solid #D1C7BB;
+    border: 0.3px solid #D1C7BB;
+
+}
+
+.whisky_event_BG {
+    background-image: url('/assets/images/whisky-eventBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 630px;
+    height: 350px;
+    background-position: center;
+    border: 0.3px solid #D1C7BB;
+
+}
+
+.malivu_event_BG {
+    background-image: url('/assets/images/Malivu-eventBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 630px;
+    height: 350px;
+    background-position: center;
+    border: 0.3px solid #D1C7BB;
+
+}
+
+.grandDel_BG h2 {
+    width: 364px;
+    height: 55px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 7.438rem 8.438rem 0;
+}
+
+.grandDel_BG p {
+    position: absolute;
+    width: 135.26px;
+    height: 39.65px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 149.4%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 12.813rem 15.4rem 0 !important;
+}
+
+.malivu_BG h2 {
+    width: 234px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #F3AA93;
+}
+
+.malivu_BG p {
+    position: absolute;
+    width: 135.26px;
+    height: 39.65px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 149.4%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 6.813rem 0 0 !important;
+}
+
+.whisky_event_BG h2 {
+    width: 521px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 103.3%;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #D1C7BB;
+}
+
+.whisky_event_BG p {
+    position: absolute;
+    width: 135.26px;
+    height: 39.65px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 149.4%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 6.813rem 0 0 !important;
+}
+
+.malivu_event_BG h2 {
+    width: 234px;
+    height: 58px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FBFBFB;
+}
+
+.malivu_event_BG p {
+    position: absolute;
+    width: 135.26px;
+    height: 39.65px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 149.4%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 6.813rem 0 0 !important;
+}
+
+.BottomSetions h3 {
+    width: 405px;
+    height: 37px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 2.688rem 0 0;
+}
+
+.BottomSetions button {
+    padding: 8px 39px;
+    gap: 10px;
+    width: 210px;
+    height: 38px;
+    background: #F3AA93;
+    border-radius: 36px;
+    margin: 2.75rem 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .events {
+        grid-template-columns: none;
+        margin: 2.813rem 1rem;
+    }
+
+    .grandDel {
+        /* display: contents; */
+    }
+
+    .grandDel_BG {
+        height: 193px;
+        width: 341px;
+    }
+
+    .grandDel_BG h2 {
+        width: 246px;
+        height: 37px;
+        font-size: 2.75rem;
+        margin: 4.375rem 3rem 0;
+    }
+
+    .grandDel_BG p {
+        width: 92px;
+        height: 27px;
+        font-size: 0.938rem;
+        margin: 7.313rem 7.813rem 0 !important;
+    }
+
+    .BottomSetions h3 {
+        width: 274px;
+        height: 25px;
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 1.813rem 1.625rem 0px;
+    }
+
+    .BottomSetions button {
+        width: 162px;
+        height: 25px;
+        font-size: 12px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 149.9%;
+        text-align: center;
+        letter-spacing: 0.315em;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 1.875rem 5rem 0;
+    }
+
+    .malivu_BG {
+        height: 193px;
+        width: 341px;
+    }
+
+    .whisky_event_BG {
+        height: 193px;
+        width: 341px;
+    }
+
+    .whisky_event_BG h2 {
+        width: 287px;
+        height: 35px;
+        font-size: 2.75rem;
+    }
+
+    .whisky_event_BG p {
+        width: 91px;
+        height: 27px;
+        font-size: 0.938rem;
+    }
+
+    .malivu_event_BG {
+        height: 193px;
+        width: 341px;
+    }
+    .malivu_BG h2{
+        width: 287px;
+        height: 35px;
+        font-size: 2.75rem;
+    }
+    .malivu_BG p{
+        width: 91px;
+        height: 27px;
+        font-size: 0.938rem;
+    }
+    .whisky_event_BG h2{
+        width: 287px;
+        height: 35px;
+        font-size: 2.75rem;
+    }
+    .whisky_event_BG p{
+        width: 91px;
+        height: 27px;
+        font-size: 0.938rem;
+    }
+    .malivu_event_BG h2{
+        width: 287px;
+        height: 35px;
+        font-size: 2.75rem;
+    }
+    .malivu_event_BG p{
+        width: 91px;
+        height: 27px;
+        font-size: 0.938rem;
+    }
+}

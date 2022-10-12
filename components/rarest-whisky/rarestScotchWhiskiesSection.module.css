@@ -1,0 +1,78 @@
+.leftCol {
+    background-image: url('/assets/images/whiskyLeft.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.scotchWhiskie {
+    background-image: url('/assets/images/highland-leftBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+.scotchWhiskie h2 {
+    width: 368px;
+    height: 195px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 8.125rem 8.25rem 0;
+    width: 22.688rem;
+}
+
+.scotchWhiskie p {
+    width: 23.5rem;
+    height: 227px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 2.5rem 8.23rem 9.188rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .leftCol{
+        height: 52.27882037533512vh;
+    }
+    .rarest_whiskies {
+        display: block;
+        /* flex: none; */
+    }
+
+    .scotchWhiskie {
+        background: #000000;
+       height: 60vh;
+    }
+
+    .scotchWhiskie h2 {
+        position: absolute;
+        width: 259px;
+        height: 107px;
+        left: 37px;
+        font-size: 37px;
+        margin: 4.188rem 0 0;
+    }
+
+    .scotchWhiskie p {
+        position: absolute;
+        width: 307px;
+        height: 105px;
+        left: 37px;
+        font-size: 19px;
+        line-height: 28px;
+        margin: 13rem 0 4.188rem;
+    }
+}

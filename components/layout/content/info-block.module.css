@@ -1,0 +1,40 @@
+.infoBlock {
+  margin: 15px 0 15px;
+}
+
+.tagline {
+  color: #363755;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 90%;
+  /* or 16px */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  margin-bottom: 25px;
+}
+
+.titleBlock {
+  font-family: 'Rossanova Personal Use';
+  width: 363px;
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 103.3%;
+  text-transform: uppercase;
+}
+
+.description {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 149.4%;
+  width: 370px;
+  height: 212px;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}

@@ -1,0 +1,91 @@
+.leftCol {
+    background-image: url('/assets/images/whiskyLeft.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.scotchWhiskie h2 {
+    font-family: 'Rossanova Personal Use';
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    text-align: left;
+    margin: 8.125rem 8.25rem 0;
+    width: 22.688rem;
+}
+
+.scotchWhiskie p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.4%;
+    color: #D1C7BB;
+    width: 20.6rem;
+    margin: 2.5rem 8.23rem 9.188rem;
+}
+
+.model {
+    overflow: hidden;
+}
+
+.model span {
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+    font-size: 224px;
+    font-family: "Maragsa";
+}
+
+@media only screen and (max-width: 768px) {
+    .leftCol {
+        height: 52.27882037533512vh;
+    }
+
+    .rarest_whiskies {
+        display: block;
+        /* flex: none; */
+    }
+
+    .scotchWhiskie_Main {
+        width: 375px;
+        height: 252px;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 92%);
+        margin: -15rem 0 0;
+    }
+
+    .scotchWhiskie_Main {
+        display: flex;
+        flex: auto;
+
+    }
+
+    .scotchWhiskie {
+        height: 100vh;
+    }
+
+    .scotchWhiskie h2 {
+        position: absolute;
+        width: 259px;
+        height: 107px;
+        left: 37px;
+        font-size: 37px;
+        margin: 19.188rem 0 0;
+    }
+
+    .scotchWhiskie p {
+        position: absolute;
+        width: 287px;
+        height: 105px;
+        left: 37px;
+        font-size: 14px;
+        line-height: 28px;
+        margin: 27rem 0 0;
+    }
+}

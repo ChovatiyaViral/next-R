@@ -1,0 +1,66 @@
+.rightCol {
+  background-image: url("/assets/images/golf-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section1 h2 {
+  font-family: "Rossanova";
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 103.3%;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 20.938rem 13.625rem 15.875rem;
+}
+
+/* .section1 {
+  border: 1px solid #A37764;
+  width: 18rem;
+  height: 23rem;
+} */
+
+.leftCol {
+  background-image: url("/assets/images/golf-Left-Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .section1 h2 {
+ position: absolute;
+  left: 43px;
+  border: 1px solid #A37764;
+  width: 18rem;
+  height: 23rem;
+} */
+
+/* .section1 h2{
+  width: 515px;
+  height: 513px;
+  border: 1px solid #A37764;
+} */
+
+@media only screen and (max-width: 768px) {
+  .leftCol {
+    height: 31.635388739946382vh;
+  }
+
+  .rightCol {
+    height: 52.27882037533512vh;
+  }
+
+  .section1 h2 {
+    margin: 5rem 0 0 ;
+    position: absolute;
+    width: 201px;
+    height: 32px;
+    left: 95px;
+    font-size: 2.313rem;
+  }
+}

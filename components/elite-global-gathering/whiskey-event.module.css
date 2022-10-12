@@ -1,0 +1,69 @@
+.leftCol {
+    background-image: url('/assets/images/whiskry-leftBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.whiskies_event {
+    background-image: url('/assets/images/whiskry-rightBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.whiskies_event h2 {
+    width: 347px;
+    height: 32px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 14.25rem 7.188rem 0 8.625rem;
+}
+
+.whiskies_event p {
+    width: 250px;
+    height: 49px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 1.688rem 8.625rem 16.5rem 9.563rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .leftCol {
+        height: 52.27882037533512vh;
+    }
+
+    .whiskies_event {
+        height: 52.27882037533512vh;
+        backdrop-filter: blur(14px);
+        /* background: rgba(0, 0, 0, 0.74); */
+    }
+
+    .whiskies_event h2 {
+        font-size: 1.625rem;
+        margin-left: 6.125rem;
+    }
+
+    .whiskies_event p {
+        width: 180px;
+        height: 64px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 6.125rem;
+    }
+}

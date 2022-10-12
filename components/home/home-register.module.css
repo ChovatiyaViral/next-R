@@ -1,0 +1,253 @@
+/* .welcomeButton button {
+    top: 545px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.438rem;
+    line-height: 200.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3AA93;
+    background: none;
+    border: none;
+    width: 307.29px;
+    cursor: pointer;
+} */
+
+.welocme_headingMain button{
+    top: 545px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.438rem;
+    line-height: 200.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3AA93;
+    background: none;
+    border: none;
+    width: 307.29px;
+    cursor: pointer;
+}
+
+.leftSideSvg {
+    width: 35.07px;
+    animation: arrow 1s infinite linear alternate;
+}
+
+
+@keyframes arrow {
+    0% {
+      transform: translate(10px);
+    }
+    100% {
+      transform: translate(30px);
+    }
+  }
+
+.rightSideSvg {
+    width: 35.07px;
+    animation: arrow 1s infinite linear alternate;
+}
+
+.diveinSection {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 93.8vh;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    perspective: 100vw;
+    perspective-origin: 50% 50%;
+    background: url('/assets/images/home_BG_1.png') no-repeat;
+    /* background-position: top 70px center; */
+    background-size: cover;
+}
+
+
+.diveinSectionMain {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.diveinSectionHeading {
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    perspective: 100vw;
+    perspective-origin: 50% 50%;
+    /* pointer-events: none; */
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
+}
+
+/* .sound_main{
+    opacity: 0;
+} */
+
+.diveinSectionHeading {
+    /* background: url('/assets/images/DiveinBG.png') no-repeat; */
+    /* z-index: 15;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 540.11px;
+    height: 540.11px;
+    left: 32%;
+    top: 103px;
+    border-radius: 50%;
+    border: 1px solid #000000;  */
+}
+
+.homeDiveinbg {
+    position: absolute;
+    background: rgba(217, 217, 217, 0.29);
+    width: 363px;
+    height: 363px;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+.diveinSectionHeading h2 {
+    border: 1px solid #FFFFFF;
+    border-radius: 63px;
+    justify-content: center;
+    align-items: center;
+    font-size: 41px;
+    z-index: 15;
+}
+
+.divein {
+    padding: 7px 28px;
+    position: absolute;
+    width: auto;
+    height: 68px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 63px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 9;
+    color: #FFFFFF;
+    z-index: 15;
+}
+
+.memberRegistration {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 50px;
+    gap: 10px;
+    position: absolute;
+    width: 254px;
+    height: 33px;
+    background: #000000;
+    border: 1px solid #EA9D7A;
+    border-radius: 26px;
+    margin-top: 450px;
+    text-align: center;
+    z-index: 15;
+}
+
+.memberRegistration button {
+    width: 167px;
+    height: 15px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 109.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3AA93;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.videoSection {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: 81px 30rem 0;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 38.8671875vw;
+    height: 80.02680965147454vh;
+    left: 1%;
+    top: 16px;
+    border: 1px solid #000000;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1600px) {
+    .diveinSection {
+        height: 91.8vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .leftSideSvg {
+        width: 0;
+    }
+
+    .rightSideSvg {
+        margin-left: -2.4rem;
+        margin-right: 0.5rem;
+    }
+
+    .diveinSectionMain {
+        clip-path: inset(0) !important;
+    }
+
+    .diveinSectionMain video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .homeDiveinbg {
+        width: 312px;
+        height: 311px;
+    }
+
+    .diveinSectionHeading h2 {
+        font-size: 22px;
+        padding: 0 1rem;
+    }
+
+    .diveinSectionHeading {
+        height: 100vh;
+    }
+}

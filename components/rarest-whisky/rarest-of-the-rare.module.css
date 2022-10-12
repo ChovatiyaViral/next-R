@@ -1,0 +1,33 @@
+.rarest_of_rare_BG {
+    background-image: url('/assets/images/rarest-of-the-rare-BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.rarest_of_rare_title {
+    position: absolute;
+    height: 120px;
+    width: 954px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+    .rarest_of_rare_title {
+        position: absolute;
+        width: 251px;
+        height: 73px;
+        left: 46px;
+        font-size: 37px;
+    }
+    .rarest_of_rare_BG{
+        height: 61.52815013404826vh;
+    }
+}

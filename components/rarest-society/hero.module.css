@@ -1,0 +1,36 @@
+.heroBg {
+    background-image: url('/assets/images/heroBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.heroTitle {
+    position: absolute;
+    height: 120px;
+    width: 954px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .heroBg {
+        height: 61.52815013404826vh;
+    }
+
+    .heroTitle {
+        position: absolute;
+        width: 309px;
+        height: 108px;
+        left: 40px;
+        font-size: 37px;
+    }
+
+}

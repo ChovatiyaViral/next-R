@@ -1,0 +1,65 @@
+.leftCol {
+  background-image: url('/assets/images/hunting-excursions.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.scotchWhiskie {
+  background: #F3AA93;
+  opacity: 0.85;
+}
+
+.scotchWhiskie h2 {
+  font-family: 'Rossanova Personal Use';
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 103.3%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: left;
+  margin: 8.125rem 8.25rem 0;
+  width: 22.688rem;
+}
+
+.scotchWhiskie p {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 149.4%;
+  color: #FFFFFF;
+  width: 20.6rem;
+  margin: 2.5rem 8.23rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .leftCol {
+    height: 52.27882037533512vh;
+  }
+
+  .scotchWhiskie {
+    height: 52.27882037533512vh;
+  }
+
+  .scotchWhiskie h2 {
+    position: absolute;
+    width: 258px;
+    height: 67px;
+    left: 36px;
+    font-size: 2.313rem;
+    margin: 0;
+    margin-top: 5.375rem;
+  }
+
+  .scotchWhiskie p {
+    position: absolute;
+    width: 240px;
+    height: 101px;
+    left: 36px;
+    font-size: 0.875rem;
+    margin: 11.563rem 0 5.5rem;
+    /* margin-top: 12.563rem; */
+  }
+}

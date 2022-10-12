@@ -1,0 +1,48 @@
+/* .heroBg {
+    background-image: url('/assets/images/heroBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.heroTitle {
+    width: 954px;
+    height: 120px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 17.3rem 7.688rem;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .heroTitle {
+        position: absolute;
+        width: 305px;
+        height: 144px;
+        font-size: 37px;
+        margin: 3.5rem 1.125rem 3.5rem 0.75rem;
+        /* border: 1px solid #A37764; */
+    }
+
+    .heroBg {
+        /* height: 52.27882037533512vh; */
+        background-image: url('/assets/images/home-register.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 8rem 0 0;
+    }
+
+    .hero_Border {
+        border: 1px solid #A37764;
+        height: 32.975871313672926vh;
+        width: 21.809895833333332vw;
+        margin: 1.813rem 1.938rem 2.25rem 1.5rem;
+    }
+}

@@ -1,0 +1,34 @@
+.heroBg {
+    background-image: url('/assets/images/private-fishing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.heroTitle {
+  
+    width: 954px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .heroTitle {
+        position: absolute;
+        position: absolute;
+        width: 201px;
+        height: 70px;
+        left: 94px;
+        font-size: 2.313rem;
+    }
+    .heroBg{
+        height: 61.52815013404826vh;
+    }
+}

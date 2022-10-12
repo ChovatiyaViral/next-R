@@ -1,0 +1,73 @@
+.bannerTitle h2 {
+    position: absolute;
+    width: 365px;
+    height: 74px;
+    left: 77px;
+    top: 487px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 16rem 0 0 0 !important;
+}
+
+.bannerTitle svg {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left: 80px;
+    top: 108px;
+    cursor: pointer;
+}
+
+.bannerTitle p {
+    position: absolute;
+    width: 418px;
+    height: 49px;
+    left: 76px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 149.52%;
+    color: #FFFFFF;
+    top: 573px;
+    margin: 15.063rem 0 3.375rem;
+}
+
+@media only screen and (max-width: 1600px) {
+    .bannerTitle h2 {
+        margin: 4.5rem 0 0 0;
+
+    }
+
+    .bannerLogo {
+        top: 19rem;
+        position: absolute;
+        margin-left: 46rem;
+    }
+
+    .bannerTitle svg {
+        position: absolute;
+        left: 20px;
+        top: 80px;
+    }
+
+    .bannerLogo {
+        top: 6rem;
+        position: absolute;
+        margin-left: 9rem;
+        width: 4rem;
+    }
+
+    .bannerTitle h2 {
+        width: 332px;
+        height: 44px;
+        left: 2rem;
+        top: 7rem;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,81 @@
+.TheMacallan_Bg {
+    background-image: url('/assets/images/highland-leftBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.leftCol {
+    background-image: url('/assets/images/macallan-left-BG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* border: 0.3px solid #D1C7BB; */
+}
+
+
+.TheMacallan_Text {
+    margin: 10.938rem 5.375rem 11.625rem 0;
+}
+
+.TheMacallan_Bg h2 {
+    height: 194px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    margin: 0rem 8.25rem 0;
+    width: 22.688rem;
+}
+
+.TheMacallan_Bg p {
+    width: 21.2rem;
+    height: 212px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.4%;
+    color: #D1C7BB;
+    margin: 4rem 8.23rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .leftCol {
+        height: 52.27882037533512vh;
+        border: none;
+    }
+
+    .TheMacallan_Bg {
+        height: 75.89008042895442vh;
+    }
+
+    .TheMacallan_Bg h2 {
+        position: absolute;
+        width: 236px;
+        height: 107px;
+        font-size: 37px;
+        margin: 0;
+    }
+    .TheMacallan_Bg p{
+        position: absolute;
+        width: 287px;
+        height: 273px;
+        margin: 0;
+        font-size: 14px;
+        top: 67px;
+        margin: 4rem 0 0 ;
+    }
+
+    .TheMacallan_Text {
+        position: absolute;
+        width: 320px;
+        height: 412px;
+        left: 36px;
+        margin: 4.188rem 0 0;
+    }
+}

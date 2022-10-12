@@ -1,0 +1,92 @@
+.rightCol {
+    background-image: url('/assets/images/elite-rightBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.scotchWhiskie {
+    background-image: url('/assets/images/highland-leftBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.scotchWhiskie h2 {
+    width: 395px;
+    height: 198px;
+    font-family: 'Rossanova Personal Use';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 103.3%;
+    text-transform: uppercase;
+    color: #F3AA93;
+    width: 22.688rem;
+    margin: 13.5rem 5.375rem 0;
+}
+
+.scotchWhiskie p {
+    width: 368px;
+    height: 113px;
+    left: 87px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 3.188rem 5.375rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .main_section {
+        flex-direction: column-reverse !important;
+        display: flex !important;
+    }
+
+    .rightCol {
+        /* display: flex; */
+        flex: auto;
+        height: 50vh;
+    }
+
+    .scotchWhiskie {
+        position: absolute;
+        width: 375px;
+        height: 252px;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 92%);
+        margin: 0;
+        top: 53rem;
+    }
+
+    .scotchWhiskie h2 {
+        /* position: absolute; */
+        width: 260px;
+        height: 134px;
+        left: 37px;
+        font-size: 2.313rem;
+        top: 7.5rem;
+        margin: 7.5rem 2.313rem 0;
+    }
+
+    .scotchWhiskie p {
+        /* position: absolute; */
+        width: 318px;
+        height: 115px;
+        left: 40px;
+        font-size: 1.188rem;
+        margin: 0 2.5rem 2.875rem;
+        line-height: 28px;
+        color: #fff !important;
+        opacity: 1 !important;
+        top: 13rem;
+        text-transform: capitalize;
+    }
+}
